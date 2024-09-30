@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://arte.estadao.com.br/capitu/dist/images/meninas-malvadas-elenco-campanha-vitimas-las-vegas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+
+.amiga{ /* muda só a classe amiga */
+    font-family: 'Midnight', sans-serif;
+    color: rgb(212, 16, 186);
+    font-size: 40px;
+    margin: 5px;
+    background-color: rgb(231, 159, 219)}
