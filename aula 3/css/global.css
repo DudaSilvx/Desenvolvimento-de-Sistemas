@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav{
+    font-family: "";
+}
