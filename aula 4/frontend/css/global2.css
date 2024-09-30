@@ -1,0 +1,40 @@
+.retanguloLaranja{
+    height: 700px;
+    width: 1150px;
+    border: 1px solid #000000;
+    border-radius: 80px;
+    background-color: rgb(229, 126, 16);
+    margin: 120px 300px 5px 100px;
+    /* cima, direito, baixo, esquerdo */
+}
+
+.retanguloAzul{
+    height: 100px;
+    width: 735px;
+    border: 1px solid #000000;
+    background-color: rgb(58, 58, 230);
+    margin: -2px 300px 20px 1210px;
+}
+
+.quadradoAzul{
+    height: 580px;
+    width: 735px;
+    border: 1px solid #000000;
+    background-color: rgb(58, 58, 230);
+    margin: -2px 300px 20px 1210px;
+}
+
+.circulo{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #000000;
+    border-radius: 90px;
+    margin: 40px;
+    background-color: rgb(58, 58, 230);
+}
+
+.ordemCirculo{
+    display: flex;
+    margin: 7px 300px 300px 100px;
+    /* cima, direito, baixo, esquerdo */
+}
