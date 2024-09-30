@@ -1,0 +1,15 @@
+.palavras{
+    background-color: rgb(247, 158, 210);
+    display: flex;
+    flex-direction: row; /* direção de linha */
+    justify-content: center; /* espaçamento igual */
+    align-items: center; /* alinhamento texto */
+}
+
+p{
+    background-color: rgb(178, 129, 235);
+}
+
+h1, h6{
+    background-color: rgb(171, 73, 190)
+}
