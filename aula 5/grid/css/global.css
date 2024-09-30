@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 8px;
+}
+
+body{
+    background-color: rgb(254, 215, 238);
+}
+
+.container h1{
+    color: rgb(0, 0, 0);
+}
+
+.tituloAmigos{
+    font-size: 36px;
+}
+
+.listaAmigos{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* cada fr (fração) indica uma coluna */
+    gap: 10px;
+}
+
+.amigo{
+    height: 80px;
+    background-color: rgb(253, 172, 198);
+    border: 1px solid #c75085;
+    border-radius: 15px;
+}
+
+.amigo h3{
+    color: #c75085;
+    padding: 0;
+}
+
+.amigo p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+@media screen /* identifica o tamanho da tela */ and /* e */ (min-width: 600px) /* se no minimo tiver 600px */{
+    .listaAmigos{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 26px;
+    }
+}
